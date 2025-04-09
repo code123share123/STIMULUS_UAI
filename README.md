@@ -1,4 +1,4 @@
-# Variance Reduction Method in Multi-objective Optimization Algorithm
+# STIMULUS
 
 This document provides an overview of the setup and requirements for running a multi-objective optimization algorithm that employs a variance reduction method.
 sampleVR.json corresponds to the STIMULUS algorithm, sampleVRM.json to STIMULUS-M.
