@@ -1,0 +1,13 @@
+{
+    "optimizer": "MOCO",
+    "iteration": 3000,
+    "batch_size": 32,
+    "batch_size_2": 32,
+    "lr": 0.3,
+    "dataset": "mnist",
+    "tasks": ["L","R"],
+    "normalization_type": "loss+",
+    "algorithm": "mgda",
+    "use_approximation": true,
+    "parallel": true
+}

@@ -1,0 +1,13 @@
+{
+    "optimizer": "MGDA",
+    "iteration": 800,
+    "batch_size": 1024,
+    "batch_size_2": 512,
+    "lr": 0.3,
+    "dataset": "mnist",
+    "tasks": ["L","R"],
+    "normalization_type": "loss+",
+    "algorithm": "mgda",
+    "use_approximation": true,
+    "parallel": true
+}
