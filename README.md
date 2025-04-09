@@ -1,7 +1,7 @@
 # Variance Reduction Method in Multi-objective Optimization Algorithm
 
 This document provides an overview of the setup and requirements for running a multi-objective optimization algorithm that employs a variance reduction method.
-
+sampleVR.json corresponds to the STIMULUS algorithm, sampleVRM.json to STIMULUS-M.
 ## Requirements
 
 To successfully run the code, specific versions of Python and some key packages are required:
@@ -24,6 +24,4 @@ To train models using the multi-task optimization approach, execute the provided
 python ./multi_task/train_multi_task.py --param_file=./sample.json
 python ./multi_task/train_multi_task.py --param_file=./sampleVR.json
 python ./multi_task/train_multi_task.py --param_file=./sampleVRM.json
-python ./multi_task/train_multi_task.py --param_file=./sampleVRP.json
-python ./multi_task/train_multi_task.py --param_file=./sampleVRMP.json
 python ./multi_task/train_multi_task.py --param_file=./sampleSGDA.json
